@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<plugin>
+	<nom>Cdn</nom>
+ 	<version>1.0</version>
+ 	<prefix>cdn</prefix>
+	<type>classique</type>
+ 	<auteur>Scopika.com</auteur>
+ 	<thelia>1.5.1</thelia>
+ 	<description>Ce plugin permet de mettre en parallèle le téléchargement de certains éléments du site afin d'accélérer le chargement des pages.
+&lt;br/&gt; Création : Cyril Batillat, &lt;a href="http://www.scopika.com" style="color:#FF0066"&gt;Agence Scopika&lt;/a&gt;</description>
+	<documentation>README</documentation>
+ 	<etat>production</etat>
+</plugin>
