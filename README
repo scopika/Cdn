@@ -4,14 +4,12 @@ Le plugin a été créé en partant du constat suivant : le protocole HTTP impos
 Le principe est expliqué plus en détails ici : http://yuiblog.com/blog/2007/04/11/performance-research-part-4/
 
 Le plugin agit automatiquement sur les éléments suivants : 
--les images issues des boucles Thelia (stockées dans le dossiers client/cache/xxx/...)
+-les images stockées dans les dossiers client/cache/xxx/...
 -les CSS
 -les JS 
 
 Pour utiliser ce plugin, vous devez au préalable paramétrer un certain nombre de noms de domaines ou de sous-noms de domaines qui seront utilisés pour traiter ces différents éléments.
-
 Renseigner vos domaines dans le fichier Cdn.class.php, vers la ligne 6 :
-
 private $_cdn = array(
 	'img' => array(
         'img1.monsite.com',
